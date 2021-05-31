@@ -20,7 +20,7 @@ nav{
 }
 
 nav img{
-width: 80px;
+width: 150px;
 }
 
 .nav-links{
@@ -68,7 +68,7 @@ width: 80px;
     font-size: 30px;
 }
 .text h5{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 12px;
     padding: 2%;
 }
@@ -347,25 +347,26 @@ max-height: 400px;
 }
 
 .team{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 80px;
 }
 
 .teamtitle h1{
-    font-weight: 400;
+    font-weight: 300;
     padding-bottom: 3%;
+    
 }
 
 .teamrow{
     width: 100%;
-    
     margin: auto;
    
 }
 
 .both{
+    
     display: flex;
     margin: 2%;
     padding: 3%;
@@ -381,7 +382,7 @@ max-height: 400px;
 }
 .teamrow1{
     display: flex;
-    width: 45%;
+    max-width: 50%;
 }
 
 
@@ -389,14 +390,21 @@ max-height: 400px;
      text-align: start;
      margin-left: 20px;
  }
- .found{
+ .row1text h1{
+    text-align: start;
+    font-size: 30px;
+}
+
+
+ .found h3{
      color: rgba(255, 0, 212, 0.877);
+     font-size: 13px;
  }
 
  .teamrow2{
      margin-left: 100px;
     display: flex;
-    width: 45%;
+    max-width: 50%;
  }
 
  .fa {
