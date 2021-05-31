@@ -203,7 +203,7 @@ p{
     .imgtxt{
         flex-direction: column; 
         min-height: 180%;
-        max-width: 130%;
+        max-width: 110%;
         
         
     }
@@ -212,23 +212,26 @@ p{
         max-height: 300px;
         }
         .textp{
-            margin: auto;
-            max-width: 100%;
+            
+            max-width: 40%;
         }
         .textp h1{
             padding-top: 10px;
             font-size: 30px;
-            text-align: start;
-            min-width: 350;
+            min-width: 200;
         }
         .textp p{
-           
             width: 350;
             
         }
 
         .comptitle p{
             line-height: 1.8;
+        }
+
+
+        .partner{
+            width: 350;
         }
 
 
@@ -250,13 +253,14 @@ max-height: 400px;
 .container img{
     width: 100%;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 .textp{
     text-align: start;
     max-width: 50%;
     max-height: 500px;
-    margin-left: 50px;
+    margin-left: 10px;
     
     
     }
