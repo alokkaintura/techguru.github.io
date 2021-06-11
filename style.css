@@ -392,21 +392,25 @@ max-height: 400px;
  }
  .row1text h1{
     text-align: start;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
  .found h3{
      color: rgba(255, 0, 212, 0.877);
-     font-size: 13px;
+     font-size: 10px;
  }
 
  .teamrow2{
-     margin-left: 100px;
+     
     display: flex;
     max-width: 50%;
  }
-
+ .teamrow2 img{
+    
+   display: flex;
+   max-width: 100%;
+}
  .fa {
   padding: 10px;
   font-size: 20px;
